@@ -18,4 +18,11 @@ protected double price;
 
     public abstract void setPrice();
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", price=" + getPrice() +
+                '}';
+    }
 }

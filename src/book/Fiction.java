@@ -9,6 +9,6 @@ public class Fiction extends Book {
 
     @Override
     public void setPrice() {
-        super.price=24.99;
+        this.price=24.99;
     }
 }
