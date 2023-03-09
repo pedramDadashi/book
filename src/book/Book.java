@@ -2,7 +2,7 @@ package book;
 
 public abstract class Book {
 private String title;
-private double price;
+protected double price;
 
     public Book(String title) {
         this.title = title;
@@ -16,6 +16,6 @@ private double price;
         return price;
     }
 
-    public abstract void setPrice(double price);
+    public abstract void setPrice();
 
 }
